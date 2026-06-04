@@ -1,0 +1,141 @@
+
+<style>
+  .root { padding: 1.5rem 0; font-family: var(--font-sans); }
+  .header { margin-bottom: 1.5rem; }
+  .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 1rem; }
+  .badge { font-size: 12px; font-weight: 500; padding: 4px 10px; border-radius: 999px; }
+  .b-teal { background: #E1F5EE; color: #0F6E56; }
+  .b-purple { background: #EEEDFE; color: #3C3489; }
+  .b-amber { background: #FAEEDA; color: #854F0B; }
+  .b-blue { background: #E6F1FB; color: #0C447C; }
+  .b-coral { background: #FAECE7; color: #993C1D; }
+  .title { font-size: 22px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 4px; }
+  .subtitle { font-size: 15px; color: var(--color-text-secondary); margin: 0 0 1rem; line-height: 1.5; }
+  .tagline { font-size: 14px; color: var(--color-text-secondary); font-style: italic; border-left: 2px solid #9FE1CB; padding-left: 12px; margin: 0 0 1.5rem; }
+  .section-label { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-text-tertiary); margin: 0 0 10px; }
+  .card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-bottom: 1rem; }
+  .module-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 1rem; }
+  .module-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 12px; }
+  .module-num { font-size: 11px; font-weight: 500; color: var(--color-text-tertiary); margin-bottom: 4px; }
+  .module-name { font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 4px; }
+  .module-desc { font-size: 12px; color: var(--color-text-secondary); line-height: 1.4; }
+  .stack-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px; margin-bottom: 1rem; }
+  .stack-item { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--color-text-primary); }
+  .stack-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+  .novelty-card { background: #EEEDFE; border: 0.5px solid #AFA9EC; border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-bottom: 1rem; }
+  .novelty-title { font-size: 14px; font-weight: 500; color: #3C3489; margin: 0 0 6px; }
+  .novelty-desc { font-size: 13px; color: #534AB7; line-height: 1.5; margin: 0; }
+  .bullet-card { background: #E1F5EE; border: 0.5px solid #5DCAA5; border-radius: var(--border-radius-lg); padding: 1rem 1.25rem; margin-bottom: 1rem; }
+  .bullet-label { font-size: 11px; font-weight: 500; color: #0F6E56; letter-spacing: 0.08em; text-transform: uppercase; margin: 0 0 8px; }
+  .bullet-text { font-size: 13px; color: #085041; line-height: 1.6; font-style: italic; margin: 0; }
+  .timeline { display: flex; flex-direction: column; gap: 8px; }
+  .tl-row { display: flex; gap: 12px; align-items: flex-start; }
+  .tl-week { font-size: 12px; font-weight: 500; color: var(--color-text-tertiary); min-width: 52px; padding-top: 1px; }
+  .tl-bar { width: 3px; background: #9FE1CB; border-radius: 2px; min-height: 36px; flex-shrink: 0; margin-top: 4px; }
+  .tl-content { font-size: 13px; color: var(--color-text-primary); line-height: 1.5; }
+  .divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1.25rem 0; }
+</style>
+
+<div class="root">
+  <h2 class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">ClinicalForecast — Data science project summary card</h2>
+
+  <div class="header">
+    <div class="badge-row">
+      <span class="badge b-teal">Healthcare AI</span>
+      <span class="badge b-purple">End-to-end ML</span>
+      <span class="badge b-amber">MLOps</span>
+      <span class="badge b-blue">Multimodal</span>
+      <span class="badge b-coral">Production</span>
+    </div>
+    <h1 class="title">ClinicalForecast — Early Sepsis Prediction System</h1>
+    <p class="subtitle">A production-grade, real-time ICU risk scoring system that predicts sepsis onset hours before clinical deterioration — combining structured time-series data with LLM-extracted signals from free-text nursing notes.</p>
+    <p class="tagline">Multimodal clinical AI: structured EHR time-series + LLM-extracted unstructured nursing note signals, deployed end-to-end.</p>
+  </div>
+
+  <p class="section-label">Core modules</p>
+  <div class="module-grid">
+    <div class="module-card">
+      <div class="module-num">Module 1</div>
+      <div class="module-name">Data Pipeline</div>
+      <div class="module-desc">MIMIC-IV ingestion, irregular time-series handling, MICE imputation, feature store</div>
+    </div>
+    <div class="module-card">
+      <div class="module-num">Module 2</div>
+      <div class="module-name">Predictive Modeling</div>
+      <div class="module-desc">LightGBM + LSTM ensemble with Cox PH survival model for time-to-sepsis</div>
+    </div>
+    <div class="module-card">
+      <div class="module-num">Module 3</div>
+      <div class="module-name">Explainability</div>
+      <div class="module-desc">SHAP force plots per patient — why is this patient flagged?</div>
+    </div>
+    <div class="module-card">
+      <div class="module-num">Module 4</div>
+      <div class="module-name">Deployment</div>
+      <div class="module-desc">FastAPI + Docker on HuggingFace Spaces with live risk scoring endpoint</div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <div class="novelty-card">
+    <p class="novelty-title"><i class="ti ti-sparkles" aria-hidden="true" style="font-size:15px; vertical-align:-2px; margin-right:6px;"></i>Key novelty — NLP fusion layer</p>
+    <p class="novelty-desc">BioMistral-7B parses free-text nursing notes (MIMIC-IV) to extract symptom signals and clinical urgency scores — temporally aligned to vitals windows and fused as features into the ensemble. Most published sepsis models use only structured data; this bridges the gap.</p>
+  </div>
+
+  <hr class="divider">
+
+  <p class="section-label">Tech stack</p>
+  <div class="stack-grid">
+    <div class="stack-item"><div class="stack-dot" style="background:#1D9E75;"></div>MIMIC-IV (PhysioNet)</div>
+    <div class="stack-item"><div class="stack-dot" style="background:#534AB7;"></div>LightGBM + LSTM</div>
+    <div class="stack-item"><div class="stack-dot" style="background:#378ADD;"></div>BioMistral-7B / scispaCy</div>
+    <div class="stack-item"><div class="stack-dot" style="background:#BA7517;"></div>lifelines (survival)</div>
+    <div class="stack-item"><div class="stack-dot" style="background:#1D9E75;"></div>SHAP + LIME</div>
+    <div class="stack-item"><div class="stack-dot" style="background:#534AB7;"></div>MLflow + Prefect</div>
+    <div class="stack-item"><div class="stack-dot" style="background:#378ADD;"></div>FastAPI + Docker</div>
+    <div class="stack-item"><div class="stack-dot" style="background:#D85A30;"></div>Streamlit dashboard</div>
+  </div>
+
+  <hr class="divider">
+
+  <p class="section-label">Resume bullet</p>
+  <div class="bullet-card">
+    <p class="bullet-label"><i class="ti ti-file-text" aria-hidden="true" style="font-size:13px; vertical-align:-2px; margin-right:5px;"></i>Copy this</p>
+    <p class="bullet-text">"Built an end-to-end multimodal sepsis early-warning system on MIMIC-IV ICU data — ensemble of LightGBM + LSTM with Cox PH survival analysis (AUROC 0.87), fused with LLM-extracted clinical NLP signals from nursing notes via BioMistral-7B, with SHAP-based per-patient explanations and live FastAPI deployment on Docker."</p>
+  </div>
+
+  <hr class="divider">
+
+  <p class="section-label">6-week timeline</p>
+  <div class="card">
+    <div class="timeline">
+      <div class="tl-row">
+        <span class="tl-week">Week 1</span>
+        <div class="tl-bar"></div>
+        <span class="tl-content">MIMIC-IV access + EDA + data pipeline + feature store</span>
+      </div>
+      <div class="tl-row">
+        <span class="tl-week">Week 2–3</span>
+        <div class="tl-bar"></div>
+        <span class="tl-content">Feature engineering + LightGBM baseline + LSTM time-series model</span>
+      </div>
+      <div class="tl-row">
+        <span class="tl-week">Week 3–4</span>
+        <div class="tl-bar"></div>
+        <span class="tl-content">BioMistral NLP pipeline + temporal alignment + fusion into ensemble</span>
+      </div>
+      <div class="tl-row">
+        <span class="tl-week">Week 5</span>
+        <div class="tl-bar"></div>
+        <span class="tl-content">Cox PH survival model + SHAP explainability + ablation studies</span>
+      </div>
+      <div class="tl-row">
+        <span class="tl-week">Week 6</span>
+        <div class="tl-bar" style="min-height:20px;"></div>
+        <span class="tl-content">FastAPI + Docker deployment + GitHub README + write-up</span>
+      </div>
+    </div>
+  </div>
+
+</div>
