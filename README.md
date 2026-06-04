@@ -40,3 +40,35 @@ This repository documents my journey toward becoming a Data Scientist.
 
 
 
+\# Data Science Journey
+
+
+
+\## Certifications
+
+
+
+\### IBM Data Science Professional Certificate
+
+
+
+\#### Course 1: What is Data Science?
+
+\- Completed: June 3, 2026
+
+\- Platform: Coursera
+
+\- Provider: IBM
+
+\- Certificate: Certifications/IBM-Data-Science/course-1-certificate.pdf
+
+
+
+\### Skills Learned
+
+\- Understanding Data Science
+
+\- Roles of Data Scientists
+
+\- Applications of Data Science
+
