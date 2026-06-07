@@ -29,10 +29,10 @@ I'm starting from scratch, building in the open, and documenting everything.
 |------|--------|
 | 📜 Complete IBM Data Science Professional Certificate | 🔄 In Progress |
 | 🐍 Learn Python | 🔄 In Progress |
-| 🤖 Learn Machine Learning | ⏳ Upcoming |
+| 🤖 Machine Learning NPTEL | ⏳ Upcoming |
 | 🧠 Deep dive into Neural Networks & Deep Learning | ⏳ Upcoming |
-| 🛠️ Build end-to-end ML projects | ⏳ Upcoming |
-| 🚀 Deploy ML models to production | ⏳ Upcoming |
+| 🛠️ Build end-to-end DS projects | ⏳ Upcoming |
+| 🚀 Deploy DS models to production | ⏳ Upcoming |
 | 💼 Get a Data Science / ML internship | 🎯 Goal |
 
 ---
@@ -67,6 +67,7 @@ I'm starting from scratch, building in the open, and documenting everything.
 ### 2026
 
 #### June
+- **June 6** _ ✅ Completed *Tools for Data Science* (IBM/Coursera, Course 2 of 10)
 - **June 3** — ✅ Completed *What is Data Science?* (IBM/Coursera, Course 1 of 10)
 - **June 2026** — 🚀 Enrolled in IBM Data Science Professional Certificate
 - **June 4** — 📁 Created this repository. Journey officially begins.
@@ -84,6 +85,21 @@ I'm starting from scratch, building in the open, and documenting everything.
 - The Data Science lifecycle
 - Tools and languages used by Data Scientists
 - Big Data fundamentals
+
+</details>
+
+<details>
+<summary><b>Course 2 — Tools for Data Science</b></summary>
+
+- Understanding the Data Scientist's toolkit
+- Introduction to Jupyter Notebooks and JupyterLab
+- Using Git and GitHub for version control and collaboration
+- Working with RStudio and R programming tools
+- Understanding cloud-based data science platforms
+- Creating and sharing notebooks with code, text, and visualizations
+- Familiarity with open-source tools used in Data Science
+- Basics of package management and development environments
+- Using GitHub repositories to track projects and learning progress
 
 </details>
 
