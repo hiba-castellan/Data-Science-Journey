@@ -45,7 +45,7 @@ I'm starting from scratch, building in the open, and documenting everything.
 | # | Course | Status | Completed |
 |---|--------|--------|-----------|
 | 1 | What is Data Science? | ✅ Done | June 3, 2026 |
-| 2 | Tools for Data Science | ⏳ Next | — |
+| 2 | Tools for Data Science | ✅ Done | june 2, 2026 |
 | 3 | Data Science Methodology | ⏳ Upcoming | — |
 | 4 | Python for Data Science, AI & Development | ⏳ Upcoming | — |
 | 5 | Python Project for Data Science | ⏳ Upcoming | — |
@@ -54,6 +54,9 @@ I'm starting from scratch, building in the open, and documenting everything.
 | 8 | Data Visualization with Python | ⏳ Upcoming | — |
 | 9 | Machine Learning with Python | ⏳ Upcoming | — |
 | 10 | Applied Data Science Capstone | ⏳ Upcoming | — |
+| 11 | Generative AI: Elevate Your Data Science Career | ⏳ Upcoming | — |
+| 12 | Data Scientist Career Guide and Interview Preparation | ⏳ Upcoming | — |
+
 
 📂 Certificates saved in [`Certifications/IBM-Data-Science/`](./Certifications/IBM-Data-Science/)
 
@@ -107,13 +110,13 @@ Data-Science-Journey/
 ## 🛤️ Roadmap
 
 ```
-[NOW]  IBM Data Science Professional Certificate (10 courses)
+[NOW]  IBM Data Science Professional Certificate (10 courses) && Mathematics for Machine Learning and Data Science (3 courses)
   ↓
 [NEXT] Python practice — LeetCode, HackerRank, Kaggle notebooks
   ↓
-[THEN] Machine Learning fundamentals
+[THEN] Machine Learning (NPTEL)
   ↓
-[GOAL] Build & deploy a real ML project
+[GOAL] Build & deploy a real DS and ML projects
   ↓
 [DREAM] Land a Data Science / ML Engineering internship
 ```
