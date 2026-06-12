@@ -135,7 +135,7 @@ Data-Science-Journey/
   ↓
 [GOAL] Build & deploy a real DS and ML projects
   ↓
-[DREAM] Land a Data Science / ML Engineering internship
+[DREAM] Land a Data Science / ML Engineering Job
 ```
 
 ---
