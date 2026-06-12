@@ -113,6 +113,7 @@ Data-Science-Journey/
 ├── Certifications/
 │   └── IBM-Data-Science/
 │       └── course-1-certificate.pdf
+|       └── course-2.pdf
 │
 ├── Notes/              # Coming soon — course notes & summaries
 │
