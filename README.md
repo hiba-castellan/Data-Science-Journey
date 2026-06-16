@@ -67,6 +67,7 @@ I'm starting from scratch, building in the open, and documenting everything.
 ### 2026
 
 #### June
+- **june 11** _ 💼 Start of offline internship 
 - **June 6** _ ✅ Completed *Tools for Data Science* (IBM/Coursera, Course 2 of 10)
 - **June 3** — ✅ Completed *What is Data Science?* (IBM/Coursera, Course 1 of 10)
 - **June 2026** — 🚀 Enrolled in IBM Data Science Professional Certificate
