@@ -46,7 +46,7 @@ I'm starting from scratch, building in the open, and documenting everything.
 |---|--------|--------|-----------|
 | 1 | What is Data Science? | ✅ Done | June 3, 2026 |
 | 2 | Tools for Data Science | ✅ Done | june 2, 2026 |
-| 3 | Data Science Methodology ✅ Done | june 29, 2026 |
+| 3 | Data Science Methodology |✅ Done | june 29, 2026 |
 | 4 | Python for Data Science, AI & Development | ⏳ Upcoming | — |
 | 5 | Python Project for Data Science | ⏳ Upcoming | — |
 | 6 | Databases and SQL for Data Science with Python | ⏳ Upcoming | — |
